@@ -76,7 +76,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
             File dbFile = new File(DB_PATH + DB_NAME);
             return dbFile.exists();
         }
-// Prueba de commit
+// Prueba de commit  
         if (checkDB != null) {
             checkDB.close();
         }
